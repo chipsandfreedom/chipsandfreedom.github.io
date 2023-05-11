@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+     <title>Chips and Freedom</title>
+     <link href="https://ggangliu.cn/feed.xml" rel="self"/>
+     <id>https://ggangliu.cn/</id>
+     <updated>2023-05-11T07:22:17+00:00</updated>
+
+     <author>
+       <name></name>
+       <uri>https://ggangliu.cn/</uri>
+       <email></email>
+     </author>
+
+ 
+ <entry>
+   <title>Mojo🔥 — a new programming language for all AI developers</title>
+   <link href="https://ggangliu.cn//2023/05/10/mojo.html"/>
+   <id>https://ggangliu.cn//2023/05/10/mojo</id>
+   <updated>2023-05-10T00:00:00+00:00</updated>
+   <content type="html">&lt;h2 id=&quot;mojo&quot;&gt;Mojo&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.modular.com/mojo&quot;&gt;https://www.modular.com/mojo&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>OpenCL Backend - Greentea</title>
+   <link href="https://ggangliu.cn//2023/05/10/greentea-opencl-backend.html"/>
+   <id>https://ggangliu.cn//2023/05/10/greentea-opencl-backend</id>
+   <updated>2023-05-10T00:00:00+00:00</updated>
+   <content type="html">&lt;h2 id=&quot;greentea&quot;&gt;Greentea&lt;/h2&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/1509.03371.pdf&quot;&gt;Efficient Convolutional Neural Networks for Pixelwise Classification on Heterogeneous Hardware Systems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pytorch OpenCL backend</title>
+   <link href="https://ggangliu.cn//2023/04/27/pytorch-opencl-backend.html"/>
+   <id>https://ggangliu.cn//2023/04/27/pytorch-opencl-backend</id>
+   <updated>2023-04-27T00:00:00+00:00</updated>
+   <content type="html">&lt;h2 id=&quot;pytorch-opencl-backend---simplified&quot;&gt;Pytorch OpenCL backend - simplified&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Install nighly version of pytorch for CPU in virtual environment&lt;/li&gt; &lt;li&gt;Clone dlrpim_backend repository and checkout true_out_of_tree_support branch&lt;/li&gt; &lt;li&gt;Update submodules&lt;/li&gt; &lt;li&gt; &lt;p&gt;Run few commands inside repo&lt;/p&gt; &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;build &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;build cmake &lt;span class=&quot;nt&quot;&gt;-DCMAKE_PREFIX_PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$VIRTUAL_ENV&lt;/span&gt;/lib/python3.8/site-packages/torch/share/cmake/Torch .. make...</content>
+ </entry>
+ 
+ <entry>
+   <title>Accelerating Graphic Rendering on Programmable RISC-V GPUs</title>
+   <link href="https://ggangliu.cn//2023/04/26/graphic-rendering-on-riscv-gpu.html"/>
+   <id>https://ggangliu.cn//2023/04/26/graphic-rendering-on-riscv-gpu</id>
+   <updated>2023-04-26T00:00:00+00:00</updated>
+   <content type="html">&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;GPU acceleration for edge computing GPU has many applications, such as, Graphics, ML, Crypto, etc&lt;/li&gt; &lt;li&gt;Rearch in GPU Hardware Architecture &lt;ul&gt; &lt;li&gt;RISC-V ISA extension for graphics&lt;/li&gt; &lt;li&gt;Open-source Vulkan software stack&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;gpu-framework-overview&quot;&gt;GPU Framework Overview&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/snip-images/2023-04-26_114533.png&quot; alt=&quot;overview&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;3d-graphics-pipeline-stages&quot;&gt;3D Graphics Pipeline Stages&lt;/h2&gt; &lt;p&gt;&lt;img...</content>
+ </entry>
+ 
+ <entry>
+   <title>Hotchip Dojo System</title>
+   <link href="https://ggangliu.cn//2023/04/25/hotchips-dojo.html"/>
+   <id>https://ggangliu.cn//2023/04/25/hotchips-dojo</id>
+   <updated>2023-04-25T00:00:00+00:00</updated>
+   <content type="html">&lt;p&gt;Dojo Super-Compute System Scaling for ML Training&lt;/p&gt; &lt;h2 id=&quot;flexible-building-block&quot;&gt;Flexible Building Block&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/snip-images/2023-04-26_092301.png&quot; alt=&quot;Scale with multiple Tiles&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;v1-dojo-interface-processor&quot;&gt;V1 Dojo Interface Processor&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/snip-images/2023-04-26_093656.png&quot; alt=&quot;DIP&quot; /&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;32GB High-Bandwidth Memory 800 GB/s Total Memory Bandwidth&lt;/li&gt; &lt;li&gt;900 GB/s TTP Interface Provideds full DRAM bandwidth to Training Tile&lt;/li&gt; &lt;li&gt;32 GB/s Gen4...</content>
+ </entry>
+ 
+ <entry>
+   <title>AMD GPU ISA Documentation</title>
+   <link href="https://ggangliu.cn//2023/04/25/amd-isa-documentation.html"/>
+   <id>https://ggangliu.cn//2023/04/25/amd-isa-documentation</id>
+   <updated>2023-04-25T00:00:00+00:00</updated>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://gpuopen.com/amd-isa-documentation/&quot;&gt;AMD GPU ISA documentation&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jekyll on Ubuntu</title>
+   <link href="https://ggangliu.cn//2023/04/25/jekyll-on-ubuntu.html"/>
+   <id>https://ggangliu.cn//2023/04/25/jekyll-on-ubuntu</id>
+   <updated>2023-04-25T00:00:00+00:00</updated>
+   <content type="html">&lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt; &lt;p&gt;Install Ruby&lt;/p&gt; &lt;div class=&quot;language-bat highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-get &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-full &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-essential &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;zlib1g&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;-dev &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt; &lt;p&gt;Adding environment variables to ~/.bashrc&lt;/p&gt; &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'# Install Ruby Gems to ~/gems'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'export...</content>
+ </entry>
+ 
+ <entry>
+   <title>How to start CMake build system with CMakeLists.txt</title>
+   <link href="https://ggangliu.cn//2023/04/25/how-to-start-with-cmakelists-txt.html"/>
+   <id>https://ggangliu.cn//2023/04/25/how-to-start-with-cmakelists-txt</id>
+   <updated>2023-04-25T00:00:00+00:00</updated>
+   <content type="html">&lt;h2 id=&quot;project-structure&quot;&gt;Project structure&lt;/h2&gt; &lt;p&gt;A project can have multiple CMakeLists.txt, but only one in each directory.&lt;/p&gt; &lt;p&gt;For the one in the top level of directory of the project, the following must be present at the top of the file.&lt;/p&gt; &lt;div class=&quot;language-cmake highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cmake_minimum_required&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;VERSION 3.6&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;project&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;foo&lt;span...</content>
+ </entry>
+ 
+ <entry>
+   <title>How to use Markdown to write technical documents</title>
+   <link href="https://ggangliu.cn//2023/04/19/how-to-write-blog-by-markdown.html"/>
+   <id>https://ggangliu.cn//2023/04/19/how-to-write-blog-by-markdown</id>
+   <updated>2023-04-19T00:00:00+00:00</updated>
+   <content type="html">&lt;h2 id=&quot;markdown常用语法&quot;&gt;Markdown常用语法&lt;/h2&gt; &lt;p&gt;[TOC]&lt;/p&gt; &lt;h3 id=&quot;基本用法&quot;&gt;基本用法&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt; &lt;p&gt;&lt;u&gt;下划线&lt;/u&gt;&lt;/p&gt; &lt;p&gt;创建脚注[^脚注]&lt;/p&gt; &lt;dl&gt; &lt;dt&gt;事物&lt;/dt&gt; &lt;dd&gt;事物的定义&lt;/dd&gt; &lt;dt&gt;代码块定义&lt;/dt&gt; &lt;dd&gt;代码块定义…… &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var a = 10; // 保持空一行与 递进缩进 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt; &lt;/div&gt; &lt;/dd&gt; &lt;/dl&gt; &lt;p&gt;开头一个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:&lt;/code&gt; + &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Tab&lt;/code&gt; 或 四个空格&lt;/p&gt; &lt;h3 id=&quot;字体&quot;&gt;字体&lt;/h3&gt; &lt;p&gt;face : 字体样式&lt;/p&gt; &lt;font face=&quot;华文彩云&quot;&gt;华文彩云&lt;/font&gt; &lt;p&gt;color : 可以用十六位颜色值，也可以用已知颜色名&lt;/p&gt; &lt;font color=&quot;#f00&quot;&gt;标红字体&lt;/font&gt;...</content>
+ </entry>
+ 
+ <entry>
+   <title>Amd Gcn1 Architecture</title>
+   <link href="https://ggangliu.cn//2023/04/15/amd-gcn1-architecture.html"/>
+   <id>https://ggangliu.cn//2023/04/15/amd-gcn1-architecture</id>
+   <updated>2023-04-15T00:00:00+00:00</updated>
+   <content type="html">&lt;h2 id=&quot;amd-gcn1-architecture&quot;&gt;AMD-GCN1-Architecture&lt;/h2&gt;
+
+&lt;p&gt;To be update&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
